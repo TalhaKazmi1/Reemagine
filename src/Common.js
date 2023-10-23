@@ -4,6 +4,7 @@ import { useTheme } from "@mui/material";
 import { selectCurrentId } from "../../features/auth/authSlice";
 import { useGetUserQuery } from "../../features/users/userApiSlice";
 // gabriel
+// new comment by talha
 const Common = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
