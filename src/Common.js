@@ -1,10 +1,11 @@
 // TEST A WAY TO MAKE AVAILABLE TO ALL PROJECT, REDUCING THE QUANTITY OF CODE PER FILE
-import React from "react";
-import { useTheme } from "@mui/material";
-import { selectCurrentId } from "../../features/auth/authSlice";
-import { useGetUserQuery } from "../../features/users/userApiSlice";
+import React from 'react';
+import { useTheme } from '@mui/material';
+import { selectCurrentId } from '../../features/auth/authSlice';
+import { useGetUserQuery } from '../../features/users/userApiSlice';
 // gabriel
 // new comment by talha
+// new comment
 const Common = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
